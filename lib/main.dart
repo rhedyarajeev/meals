@@ -14,8 +14,8 @@ final theme = ThemeData(
 
 void main() {
   runApp(
-    ProviderScope(
-      child: const App(),
+    const ProviderScope(
+      child:  App(),
     ),
   );
 
